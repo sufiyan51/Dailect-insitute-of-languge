@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialect Institute of Language</title>
+    <style>
+        /* Reset margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #696464;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #3E1F16;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Navigation */
+        nav {
+            background: #5C4033;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #333;
+            border-radius: 4px;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            width: 48%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+        }
+
+        .languages-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .languages-list li {
+            padding: 5px 0;
+            font-size: 1.1em;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-info button {
+            background-color: #5c6bc0;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+
+        .contact-info button:hover {
+            background-color: #3f51b5;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dialect Institute of Language</h1>
+        <p>Learn Languages, Build Futures</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#locations">Locations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <!-- Languages Section -->
+        <div class="section" id="languages">
+            <h2>Languages Offered</h2>
+            <div class="languages-list">
+                <ul>
+                    <li>English</li>
+                    <li>Chinese</li>
+                    <li>Arabic</li>
+                    <li>German</li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <!-- Locations Section -->
+        <div class="section" id="locations">
+            <h2>Our Locations</h2>
+            <p>We have language centers in the following cities:</p>
+            <ul>
+                <li>Rawalpindi 
+                    bahria town phase 8
+                    hub comercial
+                </li>
+                
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section" id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:info@dialectinstitute.com">info@dialectinstitute.com</a></p>
+                <p>Phone: <a href="tel:+923165166186">0316-5166186</a></p>
+                <p>Visit our centers or reach us online to enroll today!</p>
+                <button onclick="sendMessage()">Send a Message</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Dialect Institute of Language</p>
+        <p>Follow us on 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+
+    <script>
+        function sendMessage() {
+            alert("Thank you for your interest! We will get back to you soon.");
+        }
+    </script>
+
+</body>
+
+</html>
